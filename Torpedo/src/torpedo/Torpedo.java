@@ -3,7 +3,7 @@ package torpedo;
 public class Torpedo {
 
     public static void main(String[] args) {
-        
+        teszt
     }
     public static void general(){
         
