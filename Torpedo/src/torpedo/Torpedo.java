@@ -7,15 +7,16 @@ public class Torpedo {
     }
 
     public static void general() {
-        String[] vonalak;
+        String[] vonalak = new String[7];
+        String vonal = "_";
         for (int i = 0; i < 7; i++) {
-            System.out.print("_");
+            vonalak[i] = vonal;
+            System.out.print(vonalak[i]);
         }
-
     }
 
     public static void hajo_helyzet() {
-
+        
     }
 
     public static void szambeker() {
