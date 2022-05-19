@@ -22,8 +22,8 @@ public class Torpedo {
 
     public static void hajo_helyzet() {
         Random rnd = new Random();
-        for (int i = 0; i < 7; i++) {
-            int randomszam = rnd.nextInt(8);
+        for (int i = 0; i < 3; i++) {
+            int randomszam = rnd.nextInt(7);
             System.out.print("\n" + randomszam);
         }
 
@@ -31,7 +31,7 @@ public class Torpedo {
 
     public static int szambeker() {
         Scanner szam = new Scanner(System.in);
-        System.out.print("Kérek egy tippet: ");
+        System.out.print("\n" + "Kérek egy tippet: ");
         return szam.nextInt();
     }
 }
