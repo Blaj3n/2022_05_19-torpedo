@@ -1,12 +1,14 @@
 package torpedo;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Torpedo {
 
     public static void main(String[] args) {
         general();
         hajo_helyzet();
+        szambeker();
     }
 
     public static void general() {
@@ -27,8 +29,9 @@ public class Torpedo {
 
     }
 
-    public static void szambeker() {
-
+    public static int szambeker() {
+        Scanner szam = new Scanner(System.in);
+        System.out.print("Kérek egy tippet: ");
+        return szam.nextInt();
     }
-
 }
