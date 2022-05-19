@@ -1,9 +1,12 @@
 package torpedo;
 
+import java.util.Random;
+
 public class Torpedo {
 
     public static void main(String[] args) {
         general();
+        hajo_helyzet();
     }
 
     public static void general() {
@@ -16,7 +19,12 @@ public class Torpedo {
     }
 
     public static void hajo_helyzet() {
-        
+        Random rnd = new Random();
+        for (int i = 0; i < 7; i++) {
+            int randomszam = rnd.nextInt(8);
+            System.out.print("\n" + randomszam);
+        }
+
     }
 
     public static void szambeker() {
